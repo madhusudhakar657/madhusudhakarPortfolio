@@ -40,17 +40,11 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Madhu. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaFacebook />
+            <a href="www.linkedin.com/in/madhu-sudhakar-chakali" className="text-gray-400 hover:text-white">
+              <FaLinkedin /> LinkedIn
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaTwitter />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaLinkedin />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaGithub />
+            <a href="https://github.com/madhusudhakar657" className="text-gray-400 hover:text-white">
+              <FaGithub />Github
             </a>
           </div>
           <div className="flex space-x-4">

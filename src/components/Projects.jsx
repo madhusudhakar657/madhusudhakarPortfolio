@@ -1,6 +1,7 @@
 import React from "react";
 import AmazonImage from "../assets/amazon_PNG.png";
-import employeeMSImage from "../assets/employee-ms.png";
+import chilliBazaarImage from "../assets/chilliBazaar.png"
+import jsTask from "../assets/jsSimple.png"
 
 // import bookMSImage from "../assets/admin-dashboard.png";
 
@@ -21,11 +22,18 @@ const projects = [
   },
   {
     id: 3,
-    name: "Book MS",
+    name: "Chilli Bazaar",
     technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: chilliBazaarImage,
+    github: "https://madhusudhakar657.github.io/chilliBazaar/",
   },
+  {
+    id: 3,
+    name: "Product quantity selection",
+    technologies: "Javascript",
+    image: jsTask,
+    github: "https://madhusudhakar657.github.io/ProductQuantitySelectTask/",
+  }
 ];
 
 const Projects = () => {
