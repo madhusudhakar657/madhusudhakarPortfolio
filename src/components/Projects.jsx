@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     name: "AmazingShop",
     technologies: "React Js",
-    image: 'public/assets/amazon_PNG.png',
+    image: 'assets/amazon_PNG.png',
     github: "https://madhusudhakar657.github.io/amazingShop",
   },
   {

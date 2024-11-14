@@ -10,7 +10,7 @@ const Hero = () => {
           style={{ backgroundImage: `url('https://img.freepik.com/premium-photo/minimalist-home-office-setup-with-desktop-computer-houseplants-wooden-desk-against-pink-wall_996993-48571.jpg?w=1380')` }}
         >
           <img
-            src='public/assets/aboutme-image.jpg'
+            src='assets/aboutme-image.jpg'
             alt="Chakali Madhu Sudhakar"
             className='w-52 h-52 ml-10  rounded-full object-cover shadow-lg transform transition-transform duration-300 hover:scale-105'
           />
