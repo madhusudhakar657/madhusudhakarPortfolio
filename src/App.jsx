@@ -11,7 +11,7 @@ import Service from './components/Service'
 function App() {
 
   return (
-    <div>
+    <div className='w-screen bg-black relative z-0 flex flex-col justify-center '>
         <Navbar />
         <Hero />
         <About />

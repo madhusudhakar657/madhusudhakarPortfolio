@@ -1,0 +1,31 @@
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-container::before,
+  .title-container::after {
+    content: "";
+    flex: 1;
+    border: 1px solid #7ddcae;
+    margin: 0 10px; /* Space around the title */
+  }
+  .typing-text {
+    font-family: monospace;
+    font-size: 24px;
+    overflow: hidden; /* hide the overflowing text */
+    white-space: nowrap; /* keep the text on one line */
+    border-right: 3px solid black; /* blinking cursor effect */
+    animation: typing 4s steps(20, end) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 32%; /* full width of the text */
+    }
+  }
+  

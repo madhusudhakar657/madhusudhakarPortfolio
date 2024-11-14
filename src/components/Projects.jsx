@@ -1,7 +1,7 @@
 import React from "react";
-import AmazonImage from "../assets/amazon_PNG.png";
-import chilliBazaarImage from "../assets/chilliBazaar.png"
-import jsTask from "../assets/jsSimple.png"
+// import AmazonImage from "../assets/amazon_PNG.png";
+// import chilliBazaarImage from "../assets/chilliBazaar.png"
+// import jsTask from "../assets/jsSimple.png"
 
 // import bookMSImage from "../assets/admin-dashboard.png";
 
@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     name: "AmazingShop",
     technologies: "React Js",
-    image: AmazonImage,
+    image: 'public/assets/amazon_PNG.png',
     github: "https://madhusudhakar657.github.io/amazingShop",
   },
   {
@@ -24,23 +24,23 @@ const projects = [
     id: 3,
     name: "Chilli Bazaar",
     technologies: "MERN Stack",
-    image: chilliBazaarImage,
+    image: 'assets/chilliBazaar.png',
     github: "https://madhusudhakar657.github.io/chilliBazaar/",
   },
-  {
-    id: 3,
-    name: "Product quantity selection",
-    technologies: "Javascript",
-    image: jsTask,
-    github: "https://madhusudhakar657.github.io/ProductQuantitySelectTask/",
-  }
+  // {
+  //   id: 3,
+  //   name: "Product quantity selection",
+  //   technologies: "Javascript",
+  //   image: jsTask,
+  //   github: "https://madhusudhakar657.github.io/ProductQuantitySelectTask/",
+  // }
 ];
 
 const Projects = () => {
   return (
     <div className="bg-black text-white py-20" id="project">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 title-container">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 

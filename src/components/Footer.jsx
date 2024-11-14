@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Madhu</h3>
+            <h3 className="text-2xl font-bold mb-2">Chakali Madhu Sudhakar</h3>
             <p className="text-gray-400">
               Front-End Developer based in the India, specializing in web and
               software development.
@@ -40,12 +40,18 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Madhu. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="www.linkedin.com/in/madhu-sudhakar-chakali" className="text-gray-400 hover:text-white">
-              <FaLinkedin /> LinkedIn
+            <div className="flex justify-center items-center">
+               <a href="www.linkedin.com/in/madhu-sudhakar-chakali" className="text-gray-400 px-2 hover:text-white hover:text">
+              <FaLinkedin /> 
             </a>
-            <a href="https://github.com/madhusudhakar657" className="text-gray-400 hover:text-white">
-              <FaGithub />Github
+            <span>LinkedIn</span>
+            </div>
+            <div className="flex justify-center items-center">
+            <a href="https://github.com/madhusudhakar657" className="text-gray-400 px-2 hover:text-white">
+              <FaGithub />
             </a>
+            <span>Github</span>
+            </div>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
