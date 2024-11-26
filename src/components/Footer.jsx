@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaGitlab, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,18 +40,15 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Madhu. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <div className="flex justify-center items-center">
-               <a href="www.linkedin.com/in/madhu-sudhakar-chakali" className="text-gray-400 px-2 hover:text-white hover:text">
-              <FaLinkedin /> 
+            <a href="https://www.linkedin.com/in/madhu-sudhakar-chakali/" className="flex justify-center items-center text-gray-400 px-2 hover:text-white hover:text">
+              <span><FaLinkedin /></span> <span className="px-2">LinkedIn</span>
             </a>
-            <span>LinkedIn</span>
-            </div>
-            <div className="flex justify-center items-center">
-            <a href="https://github.com/madhusudhakar657" className="text-gray-400 px-2 hover:text-white">
-              <FaGithub />
+            <a href="https://github.com/madhusudhakar657" className="flex justify-center items-center text-gray-400 px-2 hover:text-white">
+              <span> <FaGithub /></span> <span className="px-2">Github</span>
             </a>
-            <span>Github</span>
-            </div>
+            <a href="https://gitlab.com/madhusudhakar657" className="flex justify-center items-center text-gray-400 px-2 hover:text-white">
+              <span> <FaGitlab /></span> <span className="px-2">Gitlab</span>
+            </a>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">

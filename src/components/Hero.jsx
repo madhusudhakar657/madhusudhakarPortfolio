@@ -4,25 +4,24 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div id="home" className='bg-green-200 rounded border-1 mx-32 text-white text-center mt-28  pb-16 shadow-lg'>
+    <div id="home" className='bg-green-200 rounded border-1 mx-0 sm:mx-32 text-white text-center mt-28  pb-16 shadow-lg'>
       <div className="relative animate-fadeIn transition-all duration-500">
-        <div className='w-full mb-8 h-64 bg-cover flex justify-start items-center  rounded bg-center'
+        <div className='w-full mb-0 sm:mb-8 h-36 sm:h-64 bg-cover flex sm:flex-row justify-start items-center rounded bg-center'
           style={{ backgroundImage: `url('https://img.freepik.com/premium-photo/minimalist-home-office-setup-with-desktop-computer-houseplants-wooden-desk-against-pink-wall_996993-48571.jpg?w=1380')` }}
         >
           <img
             src='assets/aboutme-image.jpg'
             alt="Chakali Madhu Sudhakar"
-            className='w-52 h-52 ml-10  rounded-full object-cover shadow-lg transform transition-transform duration-300 hover:scale-105'
-          />
-          <span className='text-4xl ml-10 text-black font-bold typing-text'>Front-End Developer</span>
+            className='sm:w-52 sm:h-52 w-28 h-28 ml-2 sm:ml-10 rounded-full object-cover shadow-lg transform transition-transform duration-300 hover:scale-105'
+            />
+          <span className='sm:text-4xl  ml-2 sm:ml-10 text-black font-bold sm:block typing-text'>Front-End Developer</span>
         </div>
         <div className='px-6'>
-          <marquee className='text-4xl text-black font-bold'>
-            I’m{" "}
+          <marquee className='text-md py-2 sm:py-0 sm:text-4xl text-black font-bold'>
+           Hi, I’m{" "}
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600'>
               Chakali Madhu Sudhakar
-            </span>
-            , a Front-End Developer
+            </span>  – Crafting Seamless Front-End Experiences!
           </marquee>
           <p className='mt-4 text-lg text-black san-serif'>
             With 2 years of experience, I specialize in building responsive, user-centric web applications using React, JavaScript, HTML, and CSS.

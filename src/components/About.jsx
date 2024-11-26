@@ -16,7 +16,7 @@ const About = () => {
               As a dedicated Front-End Developer with one year of hands-on experience, I specialize in creating responsive and user-centered applications using React, JavaScript, HTML, CSS, and Git. I've crafted projects that enhance user experiences and solved complex issues across multiple sites, sharpening my problem-solving abilities. With a solid foundation in frontend development, as well as knowledge of backend technologies like Node.js and MongoDB, I’m eager to innovate and deliver impactful solutions.
             </p>
             <div className="space-y-4">
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   HTML & CSS
                 </label>
@@ -27,7 +27,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   JavaScript
                 </label>
@@ -38,7 +38,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   React JS
                 </label>
@@ -49,7 +49,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   Git
                 </label>
@@ -60,7 +60,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   Node Js
                 </label>
@@ -71,7 +71,7 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col sm:flex-row sm:items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
                   MongoDB
                 </label>

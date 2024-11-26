@@ -3,6 +3,19 @@
     align-items: center;
     justify-content: center;
   }
+  .sidenav {
+    position: fixed;
+    height: 100%;
+    background-color: white; /* Dark background */
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 20;
+    
+  }
+  .sidenav.active {
+    transform: translateX(0); /* Slide in the sidenav */
+  }
   
   .title-container::before,
   .title-container::after {
