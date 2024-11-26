@@ -7,8 +7,8 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12 title-container">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
-            src='public/assets/aboutme-image.jpg'
-            alt=""
+            src='assets/aboutme-image.jpg'
+            alt="Madhu"
             className="w-72 h-72 rounded-full object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
