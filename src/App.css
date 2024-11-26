@@ -53,7 +53,7 @@
     /* keep the text on one line */
     border-right: 3px solid black;
     /* blinking cursor effect */
-    animation: typing-mobile 4s steps(20, end) infinite;
+    animation: typing-mobile 4s steps(25, end) infinite;
   }
 }
 
@@ -64,7 +64,7 @@
   }
 
   to {
-    width: 100%;
+    width: 95%;
     /* full width of the text */
   }
 }
