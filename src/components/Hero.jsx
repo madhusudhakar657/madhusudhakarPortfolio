@@ -3,8 +3,13 @@ import React from 'react';
 // import banner from "assets/linkedinBanner.jpg"
 
 const Hero = () => {
+
+  // const handleOpenResume = ()=>{
+  //   window.open("madhu_React_Developer_resume_26_1.pdf")
+
+  // }
   return (
-    <div id="home" className='bg-green-200 rounded border-1 mx-0 sm:mx-32 text-white text-center mt-14 sm:mt-28  pb-16 shadow-lg'>
+    <div id="home" className='bg-green-200 h-vh rounded border-1 mx-0 sm:mx-32 text-white text-center mt-14 sm:mt-28  pb-16 shadow-lg'>
       <div className="animate-fadeIn transition-all duration-500">
         <div className='w-full mb-0 sm:mb-8 h-36 sm:h-72 bg-cover flex sm:flex-row justify-start items-center rounded bg-bottom'
           style={{ backgroundImage: `url('https://img.freepik.com/premium-photo/minimalist-home-office-setup-with-desktop-computer-houseplants-wooden-desk-against-pink-wall_996993-48571.jpg?w=1380')` }}
@@ -12,13 +17,13 @@ const Hero = () => {
           <img
             src='assets/aboutme-image.jpg'
             alt="Chakali Madhu Sudhakar"
-            className='sm:w-52 sm:h-52 w-28 h-28 ml-2 sm:ml-10 rounded-full object-cover shadow-lg transform transition-transform duration-300 hover:scale-105'
+            className='md:w-56 md:h-56 w-28 h-28 relative sm:top-28 ml-2 sm:ml-10 rounded-full object-cover shadow-lg transform transition-transform duration-300 hover:scale-105'
           />
-          <span className='text-4xl shadow-lg shadow-green-200 px-3  ml-2 sm:ml-10 text-black font-bold hidden sm:block typing-text'>Front-End Developer</span>
+          <span className='text-4xl shadow-lg shadow-green-200 px-3 py-2 rounded-l text-black font-bold hidden md:block typing-text'>Front-End Developer</span>
         </div>
         <div className='px-6 pt-5'>
           <div className='flex justify-center items-center'>
-            <p className='text-2xl shadow-lg py-2 my-5 shadow-rose-600 ml-2 sm:ml-10 text-black font-bold sm:hidden block typing-text'>Front-End Developer</p>
+            <p className='text-2xl shadow-lg py-2 my-5 shadow-rose-600 ml-2 sm:ml-10 text-black font-bold md:hidden block typing-text'>Front-End Developer</p>
           </div>
           <p className='text-xl py-3 sm:py-0 sm:text-4xl inline sm:hidden text-slate-700 font-bold'>Hi, I’m{" "} <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600'>
             Chakali Madhu Sudhakar
@@ -45,9 +50,10 @@ const Hero = () => {
                 Contact Me
               </button>
             </a>
-            <a href="https://1drv.ms/w/c/5a4104dd102ef34a/EZMlWfzTm1pCiFTxXUe8t4YBpmBrAuSMqFLB5162u5BSTA?e=vhfj4h" target="_blank" rel="noopener noreferrer">
+            <a href="madhu_React_Developer_resume_26_1.pdf" target="_blank" rel="noopener noreferrer">
               <button
                 type="button"
+                // onClick={handleOpenResume}
                 className='bg-gradient-to-r from-pink-500 to-yellow-500 text-black font-semibold transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
                 Resume
               </button>
